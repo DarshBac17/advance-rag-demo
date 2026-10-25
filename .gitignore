@@ -1,0 +1,21 @@
+# secrets and environments
+.env
+**/.env
+.venv/
+.idea/
+
+# python / test caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local runtime data (indexes, uploads, sqlite)
+folio/data/
+
+# stray archives
+*.zip
+
+# demo videos: keep only the finished videos; narration audio, captions, stills,
+# slide sources and other intermediates are regenerable and stay local
+demo_videos/*/*
+!demo_videos/*/*_FINAL.mp4

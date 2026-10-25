@@ -1,0 +1,2179 @@
+{
+ "documents": [
+  {
+   "doc_id": "be17b633eee844afb5a6192427136748",
+   "title": "U.S. Government Publishing Office 2018 Annual Report",
+   "filename": "GPO-Anual-report.pdf",
+   "profile": "Plain text",
+   "n": 11,
+   "metrics": {
+    "naive": {
+     "hit@1": 0.6,
+     "hit@3": 0.8,
+     "hit@5": 0.9,
+     "MRR": 0.725,
+     "answers": 0.2727272727272727,
+     "n": 11
+    },
+    "advanced": {
+     "hit@1": 0.7,
+     "hit@3": 0.9,
+     "hit@5": 0.9,
+     "MRR": 0.8,
+     "answers": 0.6363636363636364,
+     "n": 11
+    }
+   },
+   "questions": [
+    {
+     "id": "gpo-b1",
+     "question": "How many copies of how many titles did GPO distribute to depository libraries in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      5,
+      15,
+      19,
+      20
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "copies of 4,211 titles to depository libraries nationwide in [1] GPO staff visited 166 depository libraries in 25 states. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        21
+       ],
+       [
+        20
+       ],
+       [
+        23
+       ],
+       [
+        19
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "In addition, GPO distributed 802,834 copies of 4,211 titles to depository libraries nationwide in FY 2018, while also cataloging a total of 34,367 titles. [2] During FY 2018, the FDLP distributed more than 802,834 tangible copies of 4,211 titles to depository libraries nationwide. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        19,
+        20
+       ],
+       [
+        5
+       ],
+       [
+        21
+       ],
+       [
+        23
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-b2",
+     "question": "How many people did GPO employ at the end of FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      7,
+      12,
+      14
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "By the end of FY 2018, GPO’ [2] At the end of FY 2018, we had 1,737 [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        12
+       ],
+       [
+        4
+       ],
+       [
+        17
+       ],
+       [
+        23
+       ],
+       [
+        26
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": false,
+      "answer": "GPO ended FY 2018 with an increase in retained earnings of $52.6 million to $441.9 million, compared with $389.3 million at the end of FY 2017. [1] By the end of FY 2018, 1,100 people were subscribed to our YouTube channel, which has nearly 265,000 views across our 78 videos. [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        27
+       ],
+       [
+        12
+       ],
+       [
+        23
+       ],
+       [
+        17,
+        18
+       ],
+       [
+        26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-b3",
+     "question": "What was GPO's net income from operations in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      6,
+      25
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Net income was $52.6 million in FY 2018 compared with net income of $58.9 million in FY 2017. [2] with Treasury increased to $644.8 million in FY 2018 from $585.9 million in FY 2017 primarily due to net income [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        25
+       ],
+       [
+        26
+       ],
+       [
+        26
+       ],
+       [
+        26
+       ],
+       [
+        6
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "Apart from these funds, GPO’s net operating income from FY 2018 was $20.4 million. [1] FY 2018 Financial Results Revenue totaled $874.5 million while expenses charged against GPO’s budget were $821.9 million, for an overall net income of $52.6 million from operations. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        25
+       ],
+       [
+        26
+       ],
+       [
+        27
+       ],
+       [
+        26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s1",
+     "question": "What were GPO's total revenues in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      6,
+      14,
+      25,
+      59
+     ],
+     "naive": {
+      "rank": 4,
+      "correct": true,
+      "answer": "Consolidated revenues were $874.5 million in fiscal 2018 and [4] Other operating expenses in FY 2018 included $3.5 million to reflect a reduction to the GPO’s future [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        26
+       ],
+       [
+        23
+       ],
+       [
+        26
+       ],
+       [
+        42
+       ],
+       [
+        18
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": true,
+      "answer": "Consolidated revenues were $874.5 million in fiscal 2018 and $874.3 million in fiscal 2017. [2] Total current assets increased by $68.8 million, to $840.7 million in FY 2018 from $771.9 million in FY 2017. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        27
+       ],
+       [
+        43
+       ],
+       [
+        14
+       ],
+       [
+        43
+       ],
+       [
+        44
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s2",
+     "question": "How many U.S. passports did GPO produce for the State Department in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      6,
+      18
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "passports for the State Department [1] In FY 2018, GPO produced 16 million passports for [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        18
+       ],
+       [
+        26
+       ],
+       [
+        6
+       ],
+       [
+        7
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "In FY 2018, GPO produced 16 million passports for the State Department and has produced a total of more than 166 million passports over the past 11 years. [2] GPO’s FY 2018 income included $28.7 million in reserved funds for planned capital investments for increasing production capacity for the next generation U.S. [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5,
+        6
+       ],
+       [
+        17,
+        18
+       ],
+       [
+        7
+       ],
+       [
+        26
+       ],
+       [
+        20
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s3",
+     "question": "How much printing did GPO procure on behalf of Federal agencies in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      5,
+      14
+     ],
+     "naive": {
+      "rank": 2,
+      "correct": false,
+      "answer": "On behalf of our Federal agency partners, GPO [2] renovation project in FY 2018 on behalf of the National [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        5
+       ],
+       [
+        62
+       ],
+       [
+        23
+       ],
+       [
+        16
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "On behalf of our Federal agency partners, GPO procured more than $375 million worth of printing and other information products in FY 2018. [1] Thanks to the dedication and skill of our SID professionals, GPO—through the end of FY 2018—produced more than 21 million secure credential cards for our Federal partners across 11 different product lines. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5,
+        6
+       ],
+       [
+        16
+       ],
+       [
+        10
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s4",
+     "question": "What is govinfo, and what did it replace?",
+     "type": "fact",
+     "gold_pages": [
+      4
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "I could not find this in the document.",
+      "verdict": "refused",
+      "pages": [
+       [
+        39
+       ],
+       [
+        16
+       ],
+       [
+        24
+       ],
+       [
+        39
+       ],
+       [
+        62
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": true,
+      "answer": "This system will be replaced by govinfo (www.govinfo.gov), which is currently in beta mode but is scheduled to replace FDsys in December 2018. [1] We also began developing plans in FY 2017 to replace the large newspaper-type presses that are used to produce the Congressional Record and the Federal Register with smaller, more flexible digital presses. [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        39
+       ],
+       [
+        16
+       ],
+       [
+        19
+       ],
+       [
+        10
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s5",
+     "question": "How many FDLP Academy webinars did GPO host, and how many participants did the programs serve?",
+     "type": "multi-part",
+     "gold_pages": [
+      5
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "The FDLP Academy was launched by GPO [2] events, including over 85 FDLP Academy webinars, [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        20
+       ],
+       [
+        24
+       ],
+       [
+        19
+       ],
+       [
+        62
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "We also hosted a number of important engagement events, including over 85 FDLP Academy webinars, which are designed to provide educational programs and training, enhance Federal Government information literacy, and meet the needs of the wider FDLP community. [1] The FDLP Academy enhances Federal Government information knowledge through events and conferences coordinated by GPO and webinars and web",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4,
+        5
+       ],
+       [
+        20,
+        21
+       ],
+       [
+        19,
+        20
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s6",
+     "question": "How many Preservation Steward agreements did GPO sign in FY 2018?",
+     "type": "fact",
+     "gold_pages": [
+      5
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Since then, GPO has signed 36 Preservation Steward [2] additional Preservation Steward agreements with libraries [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        19
+       ],
+       [
+        23
+       ],
+       [
+        26
+       ],
+       [
+        21
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "Since then, GPO has signed 36 Preservation Steward agreements (20 in FY 2018 alone), involving the libraries at the University of Colorado and at its Law School, the University of Kentucky, the University of Hawai‘i at Mänoa, the Ohio State Library, the University of Iowa, the University of Arkansas, the University of Florida, the Connecticut State Library, the University of North Carolina, the Un",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        20
+       ],
+       [
+        7
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-s7",
+     "question": "By how much has total GPO employment fallen since 1980?",
+     "type": "fact",
+     "gold_pages": [
+      12
+     ],
+     "naive": {
+      "rank": 2,
+      "correct": false,
+      "answer": "In 1980, total GPO employment [2] GPO Employment FY 1980–2018 (at September 30) [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        9
+       ],
+       [
+        12
+       ],
+       [
+        8
+       ],
+       [
+        24
+       ],
+       [
+        74
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "In 1980, total GPO employment was 6,450. [1] Since that time, GPO has produced and distributed the official version of every great American state paper and an uncounted number of other Government publications, documents, and forms. [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        12
+       ],
+       [
+        8
+       ],
+       [
+        35
+       ],
+       [
+        7
+       ],
+       [
+        82
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gpo-r1",
+     "question": "What was GPO's total revenue in FY 2020?",
+     "type": "refusal",
+     "gold_pages": [],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "of change at GPO, but what didn’t change was our [4] FY 2019 and FY 2020, GPO will continue to make [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        18
+       ],
+       [
+        26
+       ],
+       [
+        25
+       ],
+       [
+        4
+       ],
+       [
+        10
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": false,
+      "answer": "Without question FY 2018 was a year of change at GPO, but what didn’t change was our collective commitment to providing the best service to Congress, our Federal agency partners, and the general public as we work to fulfill our mission of Keeping America Informed. [3] In FY 2019 and FY 2020, GPO will continue to make investments needed to support the State Department’s Next Generation Passport pro",
+      "verdict": "grounded",
+      "pages": [
+       [
+        17,
+        18
+       ],
+       [
+        25
+       ],
+       [
+        4,
+        5
+       ],
+       [
+        26
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "doc_id": "10229c6ab7aa47198ab08c0715c98f24",
+   "title": "Global Economic Prospects -- June 2026",
+   "filename": "GEP-Jun-2026.pdf",
+   "profile": "Long, structured",
+   "n": 14,
+   "metrics": {
+    "naive": {
+     "hit@1": 0.23076923076923078,
+     "hit@3": 0.46153846153846156,
+     "hit@5": 0.5384615384615384,
+     "MRR": 0.33974358974358976,
+     "answers": 0.35714285714285715,
+     "n": 14
+    },
+    "advanced": {
+     "hit@1": 0.3076923076923077,
+     "hit@3": 0.7692307692307693,
+     "hit@5": 0.8461538461538461,
+     "MRR": 0.532051282051282,
+     "answers": 0.42857142857142855,
+     "n": 14
+    }
+   },
+   "questions": [
+    {
+     "id": "gep-b1",
+     "question": "What is the growth outlook for South Asia in this report?",
+     "type": "routing",
+     "gold_pages": [
+      96
+     ],
+     "naive": {
+      "rank": 3,
+      "correct": false,
+      "answer": "For the January 2026 projection, the trend for 2028 was extended using 2027 growth rates. [4] taper off by the end of this year, growth in the [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        99
+       ],
+       [
+        92
+       ],
+       [
+        96
+       ],
+       [
+        51
+       ],
+       [
+        93
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": false,
+      "answer": "With conflict-related disruptions assumed to wane by the end of the year, growth in SAR is set to pick up to an average rate of 7 percent per year in 2027–28. [2] Over 2027–28, a rebound in growth is anticipated, supported by a return of tourist flows, increased remittances, and expansion of hydropower activity, including the construction of plants and electricity exports in Bhutan and Nepal (Worl",
+      "verdict": "grounded",
+      "pages": [
+       [
+        97
+       ],
+       [
+        96,
+        97
+       ],
+       [
+        96
+       ],
+       [
+        98
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-b2",
+     "question": "What growth is projected in 2026 for the region that includes Pakistan?",
+     "type": "routing",
+     "gold_pages": [
+      92
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "region in 2026 and over the forecast horizon, [2] In 2026, the worst-affected region is MNA, where [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        72
+       ],
+       [
+        72
+       ],
+       [
+        89
+       ],
+       [
+        51
+       ],
+       [
+        19
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "With forecasts for the Islamic Republic of Iran excluded because of exceptionally high uncertainty, growth in MNA is expected to weaken to 1.6 percent in 2026, from 4 percent in 2025, reflecting the adverse effects of the regional conflict (table 2.7). [1] Assuming disruptions from the conflict taper off by the end of this year, growth in the region is projected to recover to an average of 4.5 per",
+      "verdict": "grounded",
+      "pages": [
+       [
+        92,
+        93
+       ],
+       [
+        51
+       ],
+       [
+        72
+       ],
+       [
+        82
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-b3",
+     "question": "According to the executive summary, what are the main risks to the global outlook?",
+     "type": "routing",
+     "gold_pages": [
+      19
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "Risks to the outlook are predominantly on the downside, including a prolonged conflict in the [1] FIGURE 1.10 Risks to the outlook [5]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        76
+       ],
+       [
+        80
+       ],
+       [
+        9
+       ],
+       [
+        52
+       ],
+       [
+        54
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Risks to the outlook remain skewed to the downside. [1] Government debt across EMDEs has risen since the global financial crisis, but commodity exporters are especially vulnerable. [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        19
+       ],
+       [
+        20
+       ],
+       [
+        20
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s1",
+     "question": "What is global growth projected to be in 2026?",
+     "type": "fact",
+     "gold_pages": [
+      19,
+      25,
+      26
+     ],
+     "naive": {
+      "rank": 2,
+      "correct": true,
+      "answer": "growth is projected to slow to 2.5 percent in [2] projections, however, trade growth in 2026 is 0.7 [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        84
+       ],
+       [
+        19
+       ],
+       [
+        36
+       ],
+       [
+        88
+       ],
+       [
+        51
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "The projected slowdown in 2026 is associated with softer growth in private consumption and exports relative to 2025, owing to weaker global growth and stricter monetary conditions. [1] Growth in LAC is projected to slow to 2.2 percent in 2026, reflecting still-weak domestic demand as well as weaker global growth, before strengthening gradually over 2027–28 to an average of 2.5 percent, as monetary",
+      "verdict": "grounded",
+      "pages": [
+       [
+        88,
+        89
+       ],
+       [
+        51
+       ],
+       [
+        100
+       ],
+       [
+        50
+       ],
+       [
+        19
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s2",
+     "question": "What is India's projected growth for fiscal year 2026/27?",
+     "type": "routing",
+     "gold_pages": [
+      96
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "percent in fiscal year 2026/27 (April 2026 to [1] Growth in India is projected to moderate to 6.6 [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        96
+       ],
+       [
+        78
+       ],
+       [
+        72
+       ],
+       [
+        100
+       ],
+       [
+        39
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "Growth in India is projected to moderate to 6.6 percent in fiscal year 2026/27 (April 2026 to March 2027), reflecting a slowdown in private demand growth owing to higher energy prices and other input costs, though a reduction in Goods and Services Tax rates should somewhat support consumer demand (table 2.10; World Bank 2026n). [1] In SAR, excluding Bangladesh and India, the projected softening of",
+      "verdict": "grounded",
+      "pages": [
+       [
+        96,
+        97
+       ],
+       [
+        19
+       ],
+       [
+        36
+       ],
+       [
+        40,
+        41
+       ],
+       [
+        100
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s3",
+     "question": "What is the outlook for SSA?",
+     "type": "routing",
+     "gold_pages": [
+      99
+     ],
+     "naive": {
+      "rank": 3,
+      "correct": false,
+      "answer": "FIGURE 2.8 SSA: Recent developments and outlook [4] Risks to the outlook ............................................................................................. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        9
+       ],
+       [
+        92
+       ],
+       [
+        99
+       ],
+       [
+        100
+       ],
+       [
+        74
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 3,
+      "correct": false,
+      "answer": "Economic growth in SSA strengthened in 2025 and remained resilient in early 2026, despite the conflict in the Middle East raising energy costs and increasing uncertainty. [1] Though commodity prices are projected to increase significantly, weaker external demand and the impact of higher prices on consumption mean that growth for industrial commodity exporters will only edge up from 3.1 percent in ",
+      "verdict": "grounded",
+      "pages": [
+       [
+        100
+       ],
+       [
+        100
+       ],
+       [
+        99
+       ],
+       [
+        101
+       ],
+       [
+        101
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s4",
+     "question": "How fast is growth in East Asia and Pacific expected to be in 2026?",
+     "type": "routing",
+     "gold_pages": [
+      81
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "Although growth in LICs is expected to rise in 2026–28, forecasts have been downgraded following a deterioration in the [5] In the Pacific Island economies, growth is expected [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        19
+       ],
+       [
+        25
+       ],
+       [
+        82
+       ],
+       [
+        82
+       ],
+       [
+        78
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": false,
+      "answer": "In the Pacific Island economies, growth is expected to slow to 3.5 percent in 2026 and to 3.3 percent in 2027–28, on average, as tourism-led growth slows in Fiji and activity in the resource sector normalizes in Papua New Guinea. [3] In EAP excluding China, growth is expected to slow to 4.4 percent in 2026 from 4.8 percent in 2025, as the conflict disrupts supply and weighs on demand through highe",
+      "verdict": "grounded",
+      "pages": [
+       [
+        82
+       ],
+       [
+        81
+       ],
+       [
+        82
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s5",
+     "question": "What is the 2026 growth forecast for Europe and Central Asia?",
+     "type": "routing",
+     "gold_pages": [
+      84
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "Europe and Central Asia forecast summary .............................................. [1] Growth in Europe and Central Asia (ECA) slowed [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        13
+       ],
+       [
+        7
+       ],
+       [
+        154
+       ],
+       [
+        83
+       ],
+       [
+        99
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": false,
+      "answer": "Growth in Europe and Central Asia (ECA) slowed to 2.5 percent in 2025, driven by softening domestic demand—particularly in the Russian Federation due to weaker fiscal stimulus and tight monetary policy. [1] Excluding Russia and Türkiye, regional growth edged up to 3.4 percent, with Central Asia remaining the fastest-growing subregion (World Bank 2026f). [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        84
+       ],
+       [
+        85
+       ],
+       [
+        85
+       ],
+       [
+        84,
+        85
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s6",
+     "question": "What is the 2026 growth projection for Latin America and the Caribbean?",
+     "type": "routing",
+     "gold_pages": [
+      88
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "Latin America and the Caribbean ..........................................................................66 [1] Latin America and the Caribbean [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        21
+       ],
+       [
+        92
+       ],
+       [
+        154
+       ],
+       [
+        87
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": false,
+      "answer": "Note: ARG = Argentina; BRA = Brazil; CHL = Chile; COL = Colombia; EMBI = Emerging Market Bond Index; LAC = Latin America and the Caribbean; MEX = Mexico; PER = Peru; RHS = right-hand scale. [2] Economic conditions in Latin America and the Caribbean (LAC) this year have been shaped by the conflict in the Middle East and heightened global uncertainty. [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        90
+       ],
+       [
+        89
+       ],
+       [
+        88
+       ],
+       [
+        90
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s7",
+     "question": "What does the report forecast for Brazil's growth in 2026?",
+     "type": "table",
+     "gold_pages": [
+      26
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "region in 2026 and over the forecast horizon, [2] In 2026, the worst-affected region is MNA, where [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        100
+       ],
+       [
+        72
+       ],
+       [
+        28
+       ],
+       [
+        82
+       ],
+       [
+        84
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 4,
+      "correct": false,
+      "answer": "The projected slowdown in 2026 is associated with softer growth in private consumption and exports relative to 2025, owing to weaker global growth and stricter monetary conditions. [1] In Colombia, growth is forecast to slow to 2.3 percent in 2026, with higher oil prices supporting incomes but inflationary pressures delaying monetary easing. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        88,
+        89
+       ],
+       [
+        36
+       ],
+       [
+        27
+       ],
+       [
+        26
+       ],
+       [
+        89
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s8",
+     "question": "In Box 1.1, by how much could AI raise productivity growth per year under optimistic estimates?",
+     "type": "routing",
+     "gold_pages": [
+      32
+     ],
+     "naive": {
+      "rank": 4,
+      "correct": false,
+      "answer": "BOX 1.1 How much will AI affect global growth? [1] BOX 1.1 How much will AI affect global growth? [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        32
+       ],
+       [
+        32
+       ],
+       [
+        30
+       ],
+       [
+        32
+       ],
+       [
+        30
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": false,
+      "answer": "Under the transformative scenario, the slowdown in global potential growth could be reversed: growth in the 2030s would exceed the average recorded in the 2000s, making the decade the strongest period of global growth BOX 1.1 How much will AI affect global growth? [1] BOX 1.1 How much will AI affect global growth? [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        32,
+        33
+       ],
+       [
+        30,
+        31
+       ],
+       [
+        30
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s9",
+     "question": "In the downside scenario, what would global GDP growth fall to this year?",
+     "type": "fact",
+     "gold_pages": [
+      55
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "trough in confidence, global GDP growth would [2] fall to 2.1 percent this year, 0.4 percentage point [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        55
+       ],
+       [
+        55
+       ],
+       [
+        54
+       ],
+       [
+        54
+       ],
+       [
+        37
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 3,
+      "correct": true,
+      "answer": "Global GDP growth would fall to 2.1 percent this year, 0.4 percentage point below the baseline, with EMDE growth 0.3 percentage point lower than in the baseline (figure 1.10.F). [3] If equity market volatility (proxied by the Chicago Board Options Exchange Volatility Index, or VIX index) were to approach its 2020 peak in mid-2026 before gradually normalizing, accompanying the steep increase in oil",
+      "verdict": "grounded",
+      "pages": [
+       [
+        30
+       ],
+       [
+        55
+       ],
+       [
+        54,
+        55
+       ],
+       [
+        54
+       ],
+       [
+        54
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-s10",
+     "question": "What was global growth in 2025 according to the report?",
+     "type": "fact",
+     "gold_pages": [
+      19,
+      25,
+      26
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "2026, from 2.9 percent in 2025—the lowest rate [1] 2025, mainly due to the impact of substantially [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        19
+       ],
+       [
+        36
+       ],
+       [
+        27
+       ],
+       [
+        28
+       ],
+       [
+        43
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": true,
+      "answer": "Global growth is projected to slow to 2.5 percent in 2026, from 2.9 percent in 2025—the lowest rate since the COVID-19 pandemic—amid weaker prospects for economies dependent on energy imports and those directly affected by hostilities. [2] In this context, global growth is forecast to slow this year to 2.5 percent, the lowest rate since the COVID-19 pandemic, as higher energy prices, rising inflat",
+      "verdict": "grounded",
+      "pages": [
+       [
+        26,
+        27
+       ],
+       [
+        19
+       ],
+       [
+        27
+       ],
+       [
+        28,
+        29
+       ],
+       [
+        81
+       ]
+      ]
+     }
+    },
+    {
+     "id": "gep-r1",
+     "question": "What level does the report forecast for the S&P 500 index at the end of 2026?",
+     "type": "refusal",
+     "gold_pages": [],
+     "naive": {
+      "rank": null,
+      "correct": true,
+      "answer": "I could not find this in the document.",
+      "verdict": "refused",
+      "pages": [
+       [
+        17
+       ],
+       [
+        51
+       ],
+       [
+        133
+       ],
+       [
+        72
+       ],
+       [
+        193
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": true,
+      "answer": "I could not find this in the document.",
+      "verdict": "refused",
+      "pages": [
+       [
+        17
+       ],
+       [
+        72
+       ],
+       [
+        89
+       ],
+       [
+        52
+       ],
+       [
+        99
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "doc_id": "417902e7cfe64811b90aff3cf28c7094",
+   "title": "iMac Product Environmental Report",
+   "filename": "iMac_PER_Oct2024.pdf",
+   "profile": "Visual",
+   "n": 12,
+   "metrics": {
+    "naive": {
+     "hit@1": 0.36363636363636365,
+     "hit@3": 0.7272727272727273,
+     "hit@5": 0.7272727272727273,
+     "MRR": 0.5151515151515151,
+     "answers": 0.16666666666666666,
+     "n": 12
+    },
+    "advanced": {
+     "hit@1": 0.8181818181818182,
+     "hit@3": 0.9090909090909091,
+     "hit@5": 0.9090909090909091,
+     "MRR": 0.8766233766233765,
+     "answers": 0.4166666666666667,
+     "n": 12
+    }
+   },
+   "questions": [
+    {
+     "id": "imac-b1",
+     "question": "What was the baseline emissions figure for iMac, and how many kilograms did the reductions remove?",
+     "type": "chart",
+     "gold_pages": [
+      2
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "iMac consumes 58 percent less energy than the requirement for ENERGY STAR.18 [1] the glass, and mercury.5 And 100 percent of the materials in iMac are covered by our Regulated [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        7
+       ],
+       [
+        12
+       ],
+       [
+        2
+       ],
+       [
+        3
+       ],
+       [
+        10
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 7,
+      "correct": true,
+      "answer": "445 kg / Baseline emissions [note 7] / Materials and process / emissions / Electricity for manufacturing / Electricity Electricity for product use for product use / Transportation / –99 kg / Emissions reductions / Recycled and / low-carbon / materials [note 8] / Materials and process / emissions / Low-carbon / electricity [note 9] / Electricity for manufacturing / Non-air shipping / Transportation",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        3
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-b2",
+     "question": "What share of iMac manufacturing electricity comes from renewable sources, and what does the footnote say about how that is measured?",
+     "type": "footnote",
+     "gold_pages": [
+      1,
+      11
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "2\tWe estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon [1] 9\tWe estimate the percentage of electricity-related emissions in our manufacturing that is sourced from clean electricity [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        11
+       ],
+       [
+        11
+       ],
+       [
+        8
+       ],
+       [
+        7
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Low-carbon electricity: Refers to both renewable electricity as well as other fossil-free projects that Apple considers “low-carbon” but not “renewable,” like nuclear and large-impact hydroelectricity projects, which may be included as a result of low-carbon electricity provided by the grid. [8] More than 15% recycled content [note 1] Over 20% of manufacturing electricity sourced from renewable en",
+      "verdict": "grounded",
+      "pages": [
+       [
+        1
+       ],
+       [
+        5
+       ],
+       [
+        9
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        9
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-b3",
+     "question": "How much less energy than the ENERGY STAR requirement does iMac use, and what is that figure based on?",
+     "type": "footnote",
+     "gold_pages": [
+      7,
+      12
+     ],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "iMac consumes 58 percent less energy than the requirement for ENERGY STAR.18 [1] iMac uses 58 percent less energy than the requirement for ENERGY [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        7
+       ],
+       [
+        12
+       ],
+       [
+        6
+       ],
+       [
+        12
+       ],
+       [
+        5
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "iMac consumes 58 percent less energy than the requirement for ENERGY STAR. [1] Apple devices consistently rank among the high-performing products rated by ENERGY STAR, which sets specifications that typically reflect the 25 percent most energy-efficient devices on the market. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        7
+       ],
+       [
+        7
+       ],
+       [
+        12
+       ],
+       [
+        12
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s1",
+     "question": "What is the total product carbon footprint of iMac (two ports) 256GB?",
+     "type": "table",
+     "gold_pages": [
+      10
+     ],
+     "naive": {
+      "rank": 2,
+      "correct": false,
+      "answer": "We’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against [3] We’ve calculated the product carbon footprint for the following configuration. [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        1
+       ],
+       [
+        9
+       ],
+       [
+        9
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "We’ve reduced emissions for iMac (two ports) with 256GB by more than 20 percent against our business-as-usual scenario as modeled by Apple. [5] This calculation assesses the suppliers for iMac (two ports) 256GB. [8]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        1
+       ],
+       [
+        5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s2",
+     "question": "What is the carbon footprint of the iMac (four ports) 512GB configuration?",
+     "type": "table",
+     "gold_pages": [
+      10
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Our carbon footprint calculation includes emissions for the following life cycle phases in CO2 [3] We’ve calculated the product carbon footprint for the following configuration. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        9
+       ],
+       [
+        10
+       ],
+       [
+        9
+       ],
+       [
+        10
+       ],
+       [
+        11
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "iMac (four ports) 512GB: 391 kg CO2e [1] Column: iMac (four ports) 512GB. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        1
+       ],
+       [
+        4
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s3",
+     "question": "What is the iMac's power consumption in sleep mode at 115V?",
+     "type": "table",
+     "gold_pages": [
+      12
+     ],
+     "naive": {
+      "rank": 3,
+      "correct": false,
+      "answer": "iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m). [1] • Off: Lowest power mode of the system. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        12
+       ],
+       [
+        12
+       ],
+       [
+        12
+       ],
+       [
+        11
+       ],
+       [
+        10
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "• Sleep: Low power state that is entered automatically after 10 minutes of inactivity (default), or by selecting Sleep from the Apple menu. [3] iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m). [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        12
+       ],
+       [
+        12
+       ],
+       [
+        7
+       ],
+       [
+        7
+       ],
+       [
+        1
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s4",
+     "question": "What share of the iMac's life cycle emissions comes from product use?",
+     "type": "table",
+     "gold_pages": [
+      10
+     ],
+     "naive": {
+      "rank": 2,
+      "correct": false,
+      "answer": "Life cycle product emissions (scope 3) [2] Our carbon footprint calculation includes emissions for the following life cycle phases in CO2 [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        3
+       ],
+       [
+        10
+       ],
+       [
+        9
+       ],
+       [
+        9
+       ],
+       [
+        11
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "Our carbon footprint calculation includes emissions for the following life cycle phases in CO2 equivalency (CO2e): • Production: Includes the extraction, production, and transportation of raw materials, as well as the manufacture, transport, and assembly of all parts and product packaging. [9] Life cycle product emissions (scope 3): 346 kg CO2e [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        10
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        9
+       ],
+       [
+        3
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s5",
+     "question": "What percentage of the iMac packaging is recycled content?",
+     "type": "fact",
+     "gold_pages": [
+      6
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": true,
+      "answer": "iMac contains 76 percent recycled content, and we hav [1] 1\tProduct recycled or renewable content is the mass of certified recycled material relative to the overall mass of the [3]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        5
+       ],
+       [
+        4
+       ],
+       [
+        10
+       ],
+       [
+        3
+       ],
+       [
+        12
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 2,
+      "correct": true,
+      "answer": "Our packaging for iMac contains 76 percent recycled content, and we have protected or established enough responsibly managed forests to cover all the new wood fiber we use in our packaging. [2] [note 3] We are working to improve our packaging across all products, including removing plastics, increasing recycled content, and reducing the volume of our packaging. [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        1
+       ],
+       [
+        6
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s6",
+     "question": "In how many components does iMac use at least 50 percent recycled plastic?",
+     "type": "fact",
+     "gold_pages": [
+      4
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "iMac contains more than 15 percent recycled content.1 [1] We use at least 50 percent [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        11
+       ],
+       [
+        4
+       ],
+       [
+        12
+       ],
+       [
+        12
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "We use at least 50 percent recycled plastic in 13 components. [1] We use 100 percent recycled tin in the 100 percent recycled rare earth elements solder of multiple printed circuit boards. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        5
+       ],
+       [
+        7
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s7",
+     "question": "Does the recycled copper in the thermal module apply to every iMac model?",
+     "type": "footnote",
+     "gold_pages": [
+      4,
+      11
+     ],
+     "naive": {
+      "rank": 3,
+      "correct": true,
+      "answer": "14\tRecycled copper in the thermal module applies to iMac (four ports) only. [3] iMac uses 100% recycled aluminum in the stand [5]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        10
+       ],
+       [
+        11
+       ],
+       [
+        11
+       ],
+       [
+        1
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": false,
+      "answer": "We also use 100 percent recycled copper in multiple thermal module components. [1] We use 100 percent recycled tin in the 100 percent recycled rare earth elements solder of multiple printed circuit boards. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        1
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-s8",
+     "question": "What share of the device's rare earth elements do the recycled magnets represent?",
+     "type": "fact",
+     "gold_pages": [
+      4
+     ],
+     "naive": {
+      "rank": 1,
+      "correct": false,
+      "answer": "100 percent recycled rare earth elements [1] and 100 percent recycled rare earth elements in all magnets. [2]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        10
+       ],
+       [
+        11
+       ],
+       [
+        12
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": 1,
+      "correct": true,
+      "answer": "in all magnets, representing 99 percent of the total rare earth elements in the device. [1] We use 100 percent recycled tin in the 100 percent recycled rare earth elements solder of multiple printed circuit boards. [1]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        1
+       ],
+       [
+        3
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ],
+       [
+        2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "imac-r1",
+     "question": "What is the battery capacity of the iMac?",
+     "type": "refusal",
+     "gold_pages": [],
+     "naive": {
+      "rank": null,
+      "correct": false,
+      "answer": "iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m). [2] the glass, and mercury.5 And 100 percent of the materials in iMac are covered by our Regulated [5]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        10
+       ],
+       [
+        12
+       ],
+       [
+        11
+       ],
+       [
+        5
+       ],
+       [
+        3
+       ]
+      ]
+     },
+     "advanced": {
+      "rank": null,
+      "correct": false,
+      "answer": "[note 5] And 100 percent of the materials in iMac are covered by our Regulated Substances Specification. [4] We consistently identify the makeup of over 80 percent by mass of iMac devices. [4]",
+      "verdict": "grounded",
+      "pages": [
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        1
+       ],
+       [
+        4
+       ],
+       [
+        4
+       ],
+       [
+        9
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "note": "No GROQ_API_KEY: answers are extractive, so answer accuracy is a lower bound. Retrieval metrics are unaffected. Embeddings are the offline hashed fallback; both pipelines score higher with the real embedding model.",
+ "llm": {
+  "answer_llm": null,
+  "fast_llm": null,
+  "vision": null
+ },
+ "embedder": {
+  "name": "hash-1024",
+  "dim": 1024,
+  "semantic": false
+ }
+}

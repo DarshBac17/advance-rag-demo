@@ -1,0 +1,13 @@
+# Tested with Python 3.12 and the versions in comments.
+Django>=5.1             # 6.1.2
+pymupdf>=1.24           # 2.0   PDF layout, fonts, drawings, tables, page rendering
+langchain-core>=0.3     # 1.7.0 Embeddings / messages interfaces
+langgraph>=0.2          # 1.2.16 the online pipeline as a state machine
+langchain-groq>=0.2     # 1.1.3 free LLM (gpt-oss-120b / gpt-oss-20b)
+langchain-google-genai>=2.0   # 4.4.2 optional: chart reading (vision) + Gemini embeddings
+qdrant-client>=1.12     # 1.20.0 vector DB (embedded on disk, or a server via QDRANT_URL)
+fastembed>=0.4          # 0.9.0 local bge-small embeddings + MiniLM cross-encoder (ONNX, CPU)
+rank-bm25>=0.2.2        # keyword search
+networkx>=3.2           # knowledge graph
+numpy>=1.26
+pytest>=8               # tests

@@ -1,0 +1,118 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Folio — ask your reports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'chat/app.css' %}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='6' y='3' width='20' height='26' rx='2' fill='%232C58CF'/><rect x='10' y='10' width='12' height='4' fill='%23FFE15C'/></svg>">
+</head>
+<body>
+<div class="app" id="app">
+
+  <aside class="pane library" id="pane-library" aria-label="Documents">
+    <header class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>Folio</h1>
+        <p>Answers you can check, from the reports you upload.</p>
+      </div>
+    </header>
+
+    <form class="drop" id="drop" aria-label="Upload a PDF">
+      <input type="file" id="file" accept="application/pdf,.pdf" class="sr-only">
+      <label for="file" class="drop-target" id="drop-target">
+        <strong>Add a PDF</strong>
+        <span>Drop it here or browse. Up to 60 MB.</span>
+      </label>
+      <label class="strategy">
+        <span>Reading strategy</span>
+        <select id="profile">
+          <option value="">Detect automatically</option>
+          <option value="narrative">Plain text</option>
+          <option value="long_structured">Long, structured</option>
+          <option value="visual">Visual (tables, charts, footnotes)</option>
+        </select>
+      </label>
+    </form>
+
+    <div class="health" id="health" hidden></div>
+
+    <div class="doclist-head">
+      <h2>Documents</h2>
+      <span class="hint">Tick to scope questions</span>
+    </div>
+    <ul class="doclist" id="doclist" aria-live="polite"></ul>
+
+    <nav class="views" aria-label="Views">
+      <button class="view-btn is-on" data-view="chat" type="button">Ask</button>
+      <button class="view-btn" data-view="eval" type="button">Evaluate</button>
+    </nav>
+  </aside>
+
+  <main class="pane convo" id="pane-convo">
+    <section id="view-chat" class="view">
+      <div class="convo-bar">
+        <div class="scope" id="scope">All ready documents</div>
+        <div class="modes" role="radiogroup" aria-label="Pipeline">
+          <button type="button" role="radio" aria-checked="true" data-mode="advanced" title="Document-aware graph pipeline">Folio pipeline</button>
+          <button type="button" role="radio" aria-checked="false" data-mode="naive" title="1,000-character chunks, dense search only">Basic RAG</button>
+          <button type="button" role="radio" aria-checked="false" data-mode="compare" title="Run both on the same question">Compare</button>
+        </div>
+      </div>
+
+      <div class="thread" id="thread">
+        <div class="empty" id="empty">
+          <h2>Ask something the document can answer.</h2>
+          <p>Every answer cites numbered passages. Open a citation to see the passage, the page it came from, and how the pipeline found it. If the document doesn’t say, Folio says so.</p>
+        </div>
+      </div>
+
+      <div class="samples" id="samples" aria-label="Suggested questions"></div>
+
+      <form class="composer" id="composer">
+        <label for="q" class="sr-only">Question</label>
+        <textarea id="q" rows="2" placeholder="Ask about the selected documents…" required></textarea>
+        <button type="submit" id="send">Ask</button>
+      </form>
+    </section>
+
+    <section id="view-eval" class="view" hidden>
+      <div class="eval-head">
+        <div>
+          <h2>Evaluation</h2>
+          <p>Hand-checked questions per document. Retrieval is scored by where the passage holding the answer ranks; answers by whether they contain the checked facts, or refuse when the document is silent.</p>
+        </div>
+        <button id="run-eval" type="button">Run evaluation</button>
+      </div>
+      <div id="eval-out" class="eval-out"></div>
+    </section>
+  </main>
+
+  <aside class="pane evidence" id="pane-evidence" aria-label="Evidence">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" aria-selected="true" data-tab="passages">Passages</button>
+      <button type="button" role="tab" aria-selected="false" data-tab="trace">Pipeline</button>
+      <button type="button" role="tab" aria-selected="false" data-tab="graph">Graph</button>
+      <button type="button" role="tab" aria-selected="false" data-tab="doc">Document</button>
+    </div>
+    <div class="tabpanel" id="tab-passages"><p class="muted">Passages for the selected answer appear here.</p></div>
+    <div class="tabpanel" id="tab-trace" hidden><p class="muted">The steps the pipeline took appear here.</p></div>
+    <div class="tabpanel" id="tab-graph" hidden><p class="muted">Entities, passages and sections the answer drew on appear here.</p></div>
+    <div class="tabpanel" id="tab-doc" hidden><p class="muted">Select a document to see how it was read.</p></div>
+  </aside>
+
+  <nav class="mobile-nav" aria-label="Panels">
+    <button type="button" data-pane="pane-library">Documents</button>
+    <button type="button" data-pane="pane-convo" class="is-on">Ask</button>
+    <button type="button" data-pane="pane-evidence">Evidence</button>
+  </nav>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script id="boot" type="application/json">{{ boot|safe }}</script>
+<script src="{% static 'chat/app.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,729 @@
+[
+ {
+  "id": "gpo-b1",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "How many copies of how many titles did GPO distribute to depository libraries in FY 2018?",
+  "gold_pages": [
+   5,
+   15,
+   19,
+   20
+  ],
+  "evidence": [
+   "802,834"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "802,834"
+   ],
+   [
+    "4,211"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-b2",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "How many people did GPO employ at the end of FY 2018?",
+  "gold_pages": [
+   7,
+   12,
+   14
+  ],
+  "evidence": [
+   "1,737"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "1,737"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-b3",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "What was GPO's net income from operations in FY 2018?",
+  "gold_pages": [
+   6,
+   25
+  ],
+  "evidence": [
+   "20.4 million"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "20.4"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s1",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "What were GPO's total revenues in FY 2018?",
+  "gold_pages": [
+   6,
+   14,
+   25,
+   59
+  ],
+  "evidence": [
+   "874.5 million",
+   "874,466"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "874.5",
+    "874,466"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s2",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "How many U.S. passports did GPO produce for the State Department in FY 2018?",
+  "gold_pages": [
+   6,
+   18
+  ],
+  "evidence": [
+   "16 million"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "16 million"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s3",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "How much printing did GPO procure on behalf of Federal agencies in FY 2018?",
+  "gold_pages": [
+   5,
+   14
+  ],
+  "evidence": [
+   "375 million",
+   "375.7 million"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "375"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s4",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "What is govinfo, and what did it replace?",
+  "gold_pages": [
+   4
+  ],
+  "evidence": [
+   "successor to our FDsys"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "FDsys"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s5",
+  "file_pattern": "GPO",
+  "type": "multi-part",
+  "question": "How many FDLP Academy webinars did GPO host, and how many participants did the programs serve?",
+  "gold_pages": [
+   5
+  ],
+  "evidence": [
+   "85 FDLP Academy webinars"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "85"
+   ],
+   [
+    "10,000"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s6",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "How many Preservation Steward agreements did GPO sign in FY 2018?",
+  "gold_pages": [
+   5
+  ],
+  "evidence": [
+   "20 additional Preservation Steward"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "20"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-s7",
+  "file_pattern": "GPO",
+  "type": "fact",
+  "question": "By how much has total GPO employment fallen since 1980?",
+  "gold_pages": [
+   12
+  ],
+  "evidence": [
+   "6,450"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "4,713",
+    "73"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gpo-r1",
+  "file_pattern": "GPO",
+  "type": "refusal",
+  "question": "What was GPO's total revenue in FY 2020?",
+  "gold_pages": [],
+  "evidence": [],
+  "evidence_all": [],
+  "answer": [],
+  "refusal": true
+ },
+ {
+  "id": "gep-b1",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What is the growth outlook for South Asia in this report?",
+  "gold_pages": [
+   96
+  ],
+  "evidence": [
+   "soften to 6.3"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "6.3"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-b2",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What growth is projected in 2026 for the region that includes Pakistan?",
+  "gold_pages": [
+   92
+  ],
+  "evidence": [
+   "weaken to 1.6 percent"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "1.6"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-b3",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "According to the executive summary, what are the main risks to the global outlook?",
+  "gold_pages": [
+   19
+  ],
+  "evidence": [
+   "renewed escalation of hostilities"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "escalation",
+    "hostilities"
+   ],
+   [
+    "commodit"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s1",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "fact",
+  "question": "What is global growth projected to be in 2026?",
+  "gold_pages": [
+   19,
+   25,
+   26
+  ],
+  "evidence": [
+   "2.5 percent in 2026",
+   "World: 2023 = 2.8"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "2.5"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s2",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What is India's projected growth for fiscal year 2026/27?",
+  "gold_pages": [
+   96
+  ],
+  "evidence": [
+   "6.6 percent in fiscal year 2026/27"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "6.6"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s3",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What is the outlook for SSA?",
+  "gold_pages": [
+   99
+  ],
+  "evidence": [
+   "edge down to 4 percent in 2026"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "4 percent"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s4",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "How fast is growth in East Asia and Pacific expected to be in 2026?",
+  "gold_pages": [
+   81
+  ],
+  "evidence": [
+   "moderate to 4.2 percent in 2026"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "4.2"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s5",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What is the 2026 growth forecast for Europe and Central Asia?",
+  "gold_pages": [
+   84
+  ],
+  "evidence": [
+   "2.1 percent in 2026"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "2.1"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s6",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "What is the 2026 growth projection for Latin America and the Caribbean?",
+  "gold_pages": [
+   88
+  ],
+  "evidence": [
+   "slow to 2.2 percent in 2026"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "2.2"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s7",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "table",
+  "question": "What does the report forecast for Brazil's growth in 2026?",
+  "gold_pages": [
+   26
+  ],
+  "evidence": [
+   "Brazil: 2023 = 3.2",
+   "Brazil 3.2 3.4 2.3 1.9"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "1.9"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s8",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "routing",
+  "question": "In Box 1.1, by how much could AI raise productivity growth per year under optimistic estimates?",
+  "gold_pages": [
+   32
+  ],
+  "evidence": [
+   "about 1 percentage point per year"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "1 percentage point"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s9",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "fact",
+  "question": "In the downside scenario, what would global GDP growth fall to this year?",
+  "gold_pages": [
+   55
+  ],
+  "evidence": [
+   "fall to 2.1 percent this year"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "2.1"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-s10",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "fact",
+  "question": "What was global growth in 2025 according to the report?",
+  "gold_pages": [
+   19,
+   25,
+   26
+  ],
+  "evidence": [
+   "2.9 percent in 2025",
+   "from 2.9 percent in 2025"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "2.9"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "gep-r1",
+  "file_pattern": "GEP|Global.Economic",
+  "type": "refusal",
+  "question": "What level does the report forecast for the S&P 500 index at the end of 2026?",
+  "gold_pages": [],
+  "evidence": [],
+  "evidence_all": [],
+  "answer": [],
+  "refusal": true
+ },
+ {
+  "id": "imac-b1",
+  "file_pattern": "iMac",
+  "type": "chart",
+  "question": "What was the baseline emissions figure for iMac, and how many kilograms did the reductions remove?",
+  "gold_pages": [
+   2
+  ],
+  "evidence": [
+   "99 kg"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "445"
+   ],
+   [
+    "99"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-b2",
+  "file_pattern": "iMac",
+  "type": "footnote",
+  "question": "What share of iMac manufacturing electricity comes from renewable sources, and what does the footnote say about how that is measured?",
+  "gold_pages": [
+   1,
+   11
+  ],
+  "evidence": [],
+  "evidence_all": [
+   "Over 20%",
+   "prior fiscal year"
+  ],
+  "answer": [
+   [
+    "20"
+   ],
+   [
+    "fiscal year"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-b3",
+  "file_pattern": "iMac",
+  "type": "footnote",
+  "question": "How much less energy than the ENERGY STAR requirement does iMac use, and what is that figure based on?",
+  "gold_pages": [
+   7,
+   12
+  ],
+  "evidence": [],
+  "evidence_all": [
+   "58 percent less",
+   "ENERGY STAR Program Requirements"
+  ],
+  "answer": [
+   [
+    "58"
+   ],
+   [
+    "Program Requirements"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s1",
+  "file_pattern": "iMac",
+  "type": "table",
+  "question": "What is the total product carbon footprint of iMac (two ports) 256GB?",
+  "gold_pages": [
+   10
+  ],
+  "evidence": [
+   "Total product footprint"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "346"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s2",
+  "file_pattern": "iMac",
+  "type": "table",
+  "question": "What is the carbon footprint of the iMac (four ports) 512GB configuration?",
+  "gold_pages": [
+   10
+  ],
+  "evidence": [
+   "391 kg"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "391"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s3",
+  "file_pattern": "iMac",
+  "type": "table",
+  "question": "What is the iMac's power consumption in sleep mode at 115V?",
+  "gold_pages": [
+   12
+  ],
+  "evidence": [
+   "0.57W"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "0.57"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s4",
+  "file_pattern": "iMac",
+  "type": "table",
+  "question": "What share of the iMac's life cycle emissions comes from product use?",
+  "gold_pages": [
+   10
+  ],
+  "evidence": [
+   "Product use: 45%",
+   "Product use 45%"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "45"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s5",
+  "file_pattern": "iMac",
+  "type": "fact",
+  "question": "What percentage of the iMac packaging is recycled content?",
+  "gold_pages": [
+   6
+  ],
+  "evidence": [
+   "76 percent recycled content",
+   "76%"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "76"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s6",
+  "file_pattern": "iMac",
+  "type": "fact",
+  "question": "In how many components does iMac use at least 50 percent recycled plastic?",
+  "gold_pages": [
+   4
+  ],
+  "evidence": [
+   "13 components"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "13"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s7",
+  "file_pattern": "iMac",
+  "type": "footnote",
+  "question": "Does the recycled copper in the thermal module apply to every iMac model?",
+  "gold_pages": [
+   4,
+   11
+  ],
+  "evidence": [
+   "thermal module applies"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "four ports"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-s8",
+  "file_pattern": "iMac",
+  "type": "fact",
+  "question": "What share of the device's rare earth elements do the recycled magnets represent?",
+  "gold_pages": [
+   4
+  ],
+  "evidence": [
+   "99 percent of the total rare earth"
+  ],
+  "evidence_all": [],
+  "answer": [
+   [
+    "99"
+   ]
+  ],
+  "refusal": false
+ },
+ {
+  "id": "imac-r1",
+  "file_pattern": "iMac",
+  "type": "refusal",
+  "question": "What is the battery capacity of the iMac?",
+  "gold_pages": [],
+  "evidence": [],
+  "evidence_all": [],
+  "answer": [],
+  "refusal": true
+ }
+]
